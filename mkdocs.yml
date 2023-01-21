@@ -1,4 +1,4 @@
-site_name: CS2040S T40
+site_name: CS2040S T40 (AY22/23 S2)
 
 theme:
   name: material
@@ -17,6 +17,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+nav:
+  - Home: 'index.md'
 
 markdown_extensions:
   - pymdownx.highlight:
