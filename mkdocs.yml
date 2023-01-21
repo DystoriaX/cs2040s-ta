@@ -2,6 +2,9 @@ site_name: CS2040S T40 (AY22/23 S2)
 
 theme:
   name: material
+  font:
+    text: Open Sans
+    code: Fira Code
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -17,10 +20,17 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+extra_css:
+  - styles/extra.css
+
 nav:
   - Home: 'index.md'
+  - Write-Ups:
+    - PS1: 'write-up/ps1.md'
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
