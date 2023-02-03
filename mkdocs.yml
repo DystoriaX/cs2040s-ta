@@ -27,6 +27,7 @@ nav:
   - Home: 'index.md'
   - Write-Ups:
     - PS1: 'write-up/ps1.md'
+    - PS2: 'write-up/ps2.md'
   - Slides:
     - Tutorial 1 (Week 3): 'pdf/t1.pdf'
     - Tutorial 2 (Week 4): 'pdf/t2.pdf'
