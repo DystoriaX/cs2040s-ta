@@ -35,6 +35,7 @@ nav:
     - Tutorial 2 (Week 4): 'pdf/t2.pdf'
     - Tutorial 3 (Week 5): 'pdf/t3.pdf'
     - Tutorial 4 (Week 6): 'pdf/t4.pdf'
+    - Tutorial 5 (Week 7): 'pdf/t5.pdf'
 markdown_extensions:
   - admonition
   - pymdownx.details
